@@ -1,3 +1,12 @@
 import React from "react"
+import LandingComponent from "components/home/LandingComponent"
+import Layout from "components/layout"
 
-export default () => <div>Hello world!</div>
+// import AboutComponent from "components/home/AboutComponent"
+// <AboutComponent />
+
+export default () => (
+  <Layout>
+    <LandingComponent />
+  </Layout>
+)
