@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import wide from "assets/memory-books/memory-wide.png"
 import phone from "assets/memory-books/memory-phone.jpg"
-import { BlankLink } from "components/common/buttons/blank"
 import {
   WebsiteContainer,
   WebsiteTitle,

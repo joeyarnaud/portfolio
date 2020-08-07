@@ -1,6 +1,5 @@
 import React from "react"
 import styled, { keyframes } from "styled-components"
-import { lighten, darken } from "polished"
 import { Link } from "gatsby"
 
 const moveInLeft = keyframes`

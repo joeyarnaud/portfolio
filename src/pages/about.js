@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import Layout, { css } from "components/layout"
+import Layout from "components/layout"
 import profileImage from "assets/profile.jpeg"
 
 const AboutPage = styled.div`

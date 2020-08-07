@@ -2,7 +2,6 @@ import React from "react"
 import styled from "styled-components"
 import wide from "assets/progress-tracker/wide.png"
 import phone from "assets/progress-tracker/phone.jpg"
-import { BlankLink } from "components/common/buttons/blank"
 import {
   WebsiteContainer,
   WebsiteTitle,

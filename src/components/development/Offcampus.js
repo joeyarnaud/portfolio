@@ -6,24 +6,17 @@ import tutorChat from "assets/offcampus/tutor-chat.png"
 import tutorView from "assets/offcampus/tutor-view.png"
 import question from "assets/offcampus/question.png"
 import questionSingle from "assets/offcampus/question-single.png"
-import { BlankLink } from "components/common/buttons/blank"
 import {
   WebsiteContainer,
   WebsiteTitle,
   WebsiteSubtitle,
   WebsiteDescription,
   WebsitePhotosContainer,
-  PhoneContainer,
   NonLinkWidescreenContainer,
   WebsiteInformationContainer,
-  WebsiteLinks,
-  WebsiteLink,
-  WebsiteLinkDescription,
   WebsiteTechnicalInformation,
   Image,
   ScreenTitle,
-  GitHub,
-  Page,
   Key,
 } from "./common"
 
@@ -51,18 +44,8 @@ const OffcampusScreenTitle = styled(ScreenTitle)`
 
 const OffcampusInformationContainer = styled(WebsiteInformationContainer)``
 
-const OffcampusLinks = styled(WebsiteLinks)``
-
-const OffcampusLink = styled(WebsiteLink)`
-  color: #0e174d;
-`
-
 const OffcampusTechnicalInformation = styled(WebsiteTechnicalInformation)`
   color: #0e174d;
-`
-
-const ImageInset = styled(Image)`
-  clip-path: inset(0px 0px 0px 10px);
 `
 
 export default function Offcampuss() {

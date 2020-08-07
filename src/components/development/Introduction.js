@@ -3,8 +3,8 @@ import styled from "styled-components"
 import development from "assets/development.jpeg"
 
 const IntroductionSection = styled.section`
+  position: relative;
   background: url(${development});
-  padding: 2rem;
   text-align: center;
   height: 100vh;
 `
@@ -12,8 +12,8 @@ const IntroductionSection = styled.section`
 const IntroductionTitle = styled.h1`
   color: #4a4e4d;
   font-size: 4rem;
-  margin-top: 3rem;
   background-color: rgba(255, 255, 255, 0.5);
+  padding: 2rem;
 `
 
 const IntroductionText = styled.p`
@@ -27,6 +27,10 @@ const IntroductionText = styled.p`
 const IntroductionImage = styled.img`
   opacity: 0.6;
   height: 70vh;
+  width: 70vw;
+  position: absolute;
+  top: 10vh;
+  left: 10vw;
 `
 
 export default function Introduction() {

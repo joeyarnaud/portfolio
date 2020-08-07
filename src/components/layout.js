@@ -1,6 +1,6 @@
 import React from "react"
-import { darken } from "polished"
 import { createGlobalStyle, ThemeProvider } from "styled-components"
+import Navigation from "./layout/Navigation"
 
 const GlobalStyle = createGlobalStyle`
   @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,800&display=swap');
@@ -17,6 +17,18 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background-color: #58f5a0;
+  }
+
+  @keyframes modalOut {
+    from {
+      width: 9rem;
+      height: 9rem;
+    }
+
+    to {
+      width: 50rem;
+      height: 50rem;
+    }
   }
 `
 
@@ -61,6 +73,9 @@ export const theme = {
 export default ({ children }) => (
   <React.Fragment>
     <GlobalStyle />
-    <ThemeProvider theme={theme}>{children}</ThemeProvider>
+    <ThemeProvider theme={theme}>
+      <Navigation />
+      {children}
+    </ThemeProvider>
   </React.Fragment>
 )
