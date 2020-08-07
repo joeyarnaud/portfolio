@@ -122,7 +122,7 @@ export default function LandingComponent() {
           obcaecati dicta adipisci necessitatibus consectetur quam totam autem
           quos! Dolor ducimus libero accusamus facere.
         </SubTitle>
-        <EnterSiteButton to="/dev-portfolio">Enter Site</EnterSiteButton>
+        <EnterSiteButton to="/development">Enter Site</EnterSiteButton>
       </LandingContainer>
     </Landing>
   )

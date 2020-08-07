@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: ${darken(0.1, "#fff")};
+    background-color: #58f5a0;
   }
 `
 
@@ -26,7 +26,7 @@ export const theme = {
     colorBlack: "#000",
     colorGrayDark: "#A8A8A8",
     colorPrimary: "#345980",
-    colorLightGreen: "#7EFF7C",
+    colorLightGreen: "#62F54C",
   },
   fonts: {
     openSans: "'Open Sans', sans-serif",
