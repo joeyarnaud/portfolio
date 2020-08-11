@@ -6,7 +6,7 @@ const IntroductionSection = styled.section`
   position: relative;
   background: url(${development});
   text-align: center;
-  height: 100vh;
+  height: 40vh;
 `
 
 const IntroductionTitle = styled.h1`
@@ -20,6 +20,7 @@ const IntroductionText = styled.p`
   font-size: 2rem;
   color: #4a4e4d;
   margin: 4rem auto;
+  padding: 4rem;
   width: 70%;
   background-color: rgba(255, 255, 255, 0.5);
 `
@@ -37,12 +38,9 @@ export default function Introduction() {
   return (
     <IntroductionSection>
       <IntroductionTitle>Development</IntroductionTitle>
-      <IntroductionImage src={development} />
       <IntroductionText>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus
-        officia perspiciatis unde commodi ratione iusto. Iusto ut, quod quaerat,
-        non, tempora ipsa obcaecati corrupti laboriosam modi at assumenda sed
-        deserunt?
+        Below are some projects I've worked on either at University, at work for
+        the company Offcampus or personal projects
       </IntroductionText>
     </IntroductionSection>
   )

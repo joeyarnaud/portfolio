@@ -102,7 +102,7 @@ export default function Navigation() {
             <ModalLink to="/development">
               Development <RiComputerLine />{" "}
             </ModalLink>
-            <ModalLink to="/about">
+            <ModalLink to="/">
               About <FaInfoCircle />
             </ModalLink>
             <ModalLink to="/contact">
