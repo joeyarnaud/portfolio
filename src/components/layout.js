@@ -16,7 +16,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color: #58f5a0;
+    background-color: #343A40;
   }
 
   @keyframes modalOut {
