@@ -56,10 +56,18 @@ export const PhoneContainer = styled.a`
   display: block;
   text-decoration: none;
   margin: 2rem 0;
+  margin-right: 1rem;
 
   &:hover {
     cursor: pointer;
   }
+`
+
+export const NoLinkPhoneContainer = styled.div`
+  display: block;
+  text-decoration: none;
+  margin: 2rem 0;
+  margin-right: 1rem;
 `
 
 export const ScreenTitle = styled.h3`
