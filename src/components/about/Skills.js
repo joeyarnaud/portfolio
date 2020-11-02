@@ -42,10 +42,10 @@ export default function Skills() {
       <SkillsSubtitle>Frameworks, Runtimes & Libraries</SkillsSubtitle>
       <SkillsList>
         <SkillsListItem>React.js, Redux</SkillsListItem>
+        <SkillsListItem>Node.js - Express</SkillsListItem>
         <SkillsListItem>Sass, Bootstrap</SkillsListItem>
         <SkillsListItem>React Native</SkillsListItem>
         <SkillsListItem>Android (Java)</SkillsListItem>
-        <SkillsListItem>Node.js</SkillsListItem>
         <SkillsListItem>Flask</SkillsListItem>
       </SkillsList>
     </SkillsSection>

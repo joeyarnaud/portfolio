@@ -56,8 +56,8 @@ export default function Bio() {
       <BioTitle>Career Summary </BioTitle>
       <CareerSummary>
         <BioSubtitle>Frontend Developer At Offcampus</BioSubtitle>
-        <BioSubtitle2>2018 - present</BioSubtitle2>
-        <BioSubtitle3>Role: </BioSubtitle3>
+        <BioSubtitle2>2018 - 2020</BioSubtitle2>
+        <BioSubtitle3>Role: Front End Developer</BioSubtitle3>
         <BioList>
           <BioListItem>
             Turned wireframes into reusable react components

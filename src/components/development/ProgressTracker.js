@@ -2,6 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import wide from "assets/progress-tracker/wide.png"
 import phone from "assets/progress-tracker/phone.jpg"
+import CurrentlyDown from "components/common/CurrentlyDown"
 import {
   WebsiteContainer,
   WebsiteTitle,
@@ -68,20 +69,26 @@ export default function ProgressTrackers() {
         early development. Here is a look at what it looks like currently.
       </ProgressTrackerDescription>
       <WebsitePhotosContainer>
-        <WideScreenContainer
-          target="_blank"
-          href="https://pure-taiga-01859.herokuapp.com/"
-        >
-          <ProgressTrackerScreenTitle>Computer View</ProgressTrackerScreenTitle>
-          <Image src={wide} />
-        </WideScreenContainer>
-        <PhoneContainer
-          target="_blank"
-          href="https://pure-taiga-01859.herokuapp.com/"
-        >
-          <ProgressTrackerScreenTitle>Phone View</ProgressTrackerScreenTitle>
-          <Image src={phone} />
-        </PhoneContainer>
+        <CurrentlyDown>
+          <WideScreenContainer
+            target="_blank"
+            href="https://pure-taiga-01859.herokuapp.com/"
+          >
+            <ProgressTrackerScreenTitle>
+              Computer View
+            </ProgressTrackerScreenTitle>
+            <Image src={wide} />
+          </WideScreenContainer>
+        </CurrentlyDown>
+        <CurrentlyDown>
+          <PhoneContainer
+            target="_blank"
+            href="https://pure-taiga-01859.herokuapp.com/"
+          >
+            <ProgressTrackerScreenTitle>Phone View</ProgressTrackerScreenTitle>
+            <Image src={phone} />
+          </PhoneContainer>
+        </CurrentlyDown>
       </WebsitePhotosContainer>
       <ProgressTrackerInformationContainer>
         <ProgressTrackerSubtitle>Links: </ProgressTrackerSubtitle>
